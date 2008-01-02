@@ -17,6 +17,7 @@ Source1:	%{name}-nb.po.bz2
 Patch0:		%{name}-i18n.patch.bz2
 URL:		http://gforge.openit.it/projects/overlook/
 Group:		%{group}
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	GPL
 Requires:	sendmail-command
 Requires:	apache >= 1.3.19
