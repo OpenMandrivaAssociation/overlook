@@ -1,6 +1,6 @@
 %define	name	overlook
 %define	version	3.2
-%define	release %mkrel 6
+%define	release %mkrel 7
 %define summary Overlook is a webmail system derived from squirrelmail
 %define group	System/Servers
 %define basedir %{_var}/www/html/overlook
