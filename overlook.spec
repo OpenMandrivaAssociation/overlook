@@ -1,6 +1,6 @@
 %define	name	overlook
 %define	version	3.2
-%define	release %mkrel 8
+%define	release %mkrel 7
 %define summary Overlook is a webmail system derived from squirrelmail
 %define group	System/Servers
 %define basedir %{_var}/www/html/overlook
@@ -95,3 +95,50 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,apache,apache)
 %{_var}/cache/overlook/
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 3.2-7mdv2010.0
++ Revision: 430224
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.2-6mdv2009.0
++ Revision: 254941
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 3.2-4mdv2008.1
++ Revision: 130979
+- kill re-definition of %%buildroot on Pixel's request
+- import overlook
+
+
+* Mon Nov 07 2005 Eskild Hustvedt <eskild@mandriva.org> 3.2-4mdk
+- Rebuild (I messed up the 10.2 update)
+
+* Mon Nov 07 2005 Eskild Hustvedt <eskild@mandriva.org> 3.2-3mdk
+- Cleanup and hopefully fix upgrade to 2006.0
+
+* Mon May 23 2005 Eskild Hustvedt <eskild@mandriva.org> 3.2-2mdk
+- Fix wrong-script-end-of-line-encoding
+
+* Wed Apr 27 2005 Eskild Hustvedt <eskild@mandriva.org> 3.2-1mdk
+- New version 3.2
+- Rediff patch 0
+- Don't relativize symlinks
+
+* Mon Mar 28 2005 Eskild Hustvedt <eskild@mandrake.org> 3.0-4mdk
+- %%mkrel
+
+* Thu Mar 17 2005 Eskild Hustvedt <eskild@mandrake.org> 3.0-3mdk
+- Rebuild
+
+* Thu Mar 10 2005 Eskild Hustvedt <eskild@mandrake.org> 3.0-2mdk
+- Fixes to the Norwegian bokmål language directories
+- Include more sane (but very incomplete) Norwegian bokmål translation
+- Patch0: Quick (but ugly) fix making i18n work
+
+* Mon Mar 07 2005  Eskild Hustvedt <eskild@mandrake.com> 3.0-1mdk
+- Initial Mandrakelinux package

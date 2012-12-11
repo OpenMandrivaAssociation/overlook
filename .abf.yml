@@ -1,3 +1,4 @@
 sources:
-  "overlook-3.2.tar.bz2:"	7a6bca7f935b4ef7b1e9c48135de2069dd9d7808
-  "overlook-nb.po.bz2:"	76f38c47cb471bb43018df4031217bf8c2d6a655
+  "overlook-3.2.tar.bz2": 7a6bca7f935b4ef7b1e9c48135de2069dd9d7808
+  "overlook-i18n.patch.bz2": 1bbb6b2fd8877ec72ff249844165c70a1f65b011
+  "overlook-nb.po.bz2": 76f38c47cb471bb43018df4031217bf8c2d6a655
