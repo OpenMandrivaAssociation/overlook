@@ -15,7 +15,7 @@ Source1:	%{name}-nb.po.bz2
 # Patch to make i18n actually work (bug inherited from squirrelmail.
 #  I have reported it upstream).
 Patch0:		%{name}-i18n.patch.bz2
-URL:		http://gforge.openit.it/projects/overlook/
+URL:		https://gforge.openit.it/projects/overlook/
 Group:		%{group}
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	GPL
